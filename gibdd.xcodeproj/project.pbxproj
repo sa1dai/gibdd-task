@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2C304945B04ABD6ABEFC03 /* Pods_gibdd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC4F3D40CCC3592C951CCE61 /* Pods_gibdd.framework */; };
 		846B159725DD0F6B005B1FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B159625DD0F6B005B1FBA /* AppDelegate.swift */; };
-		846B159925DD0F6B005B1FBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B159825DD0F6B005B1FBA /* SceneDelegate.swift */; };
-		846B159B25DD0F6B005B1FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B159A25DD0F6B005B1FBA /* ViewController.swift */; };
 		846B159E25DD0F6B005B1FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B159C25DD0F6B005B1FBA /* Main.storyboard */; };
 		846B15A025DD0F6C005B1FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B159F25DD0F6C005B1FBA /* Assets.xcassets */; };
 		846B15A325DD0F6C005B1FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B15A125DD0F6C005B1FBA /* LaunchScreen.storyboard */; };
+		846C5C1525DE26950000F729 /* DriverCarLicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5C1425DE26950000F729 /* DriverCarLicenseViewController.swift */; };
+		846C5C1825DE71820000F729 /* WizardContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C5C1725DE71820000F729 /* WizardContainerViewController.swift */; };
+		846C5C2025DE7E0D0000F729 /* first.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846C5C1C25DE7E0D0000F729 /* first.jpg */; };
+		846C5C2125DE7E0D0000F729 /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846C5C1D25DE7E0D0000F729 /* second.jpg */; };
+		846C5C2225DE7E0D0000F729 /* third.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846C5C1E25DE7E0D0000F729 /* third.jpg */; };
+		846C5C2325DE7E0D0000F729 /* fourth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846C5C1F25DE7E0D0000F729 /* fourth.jpg */; };
+		84C76A0225DDA43000B51D8E /* AutoNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C76A0125DDA43000B51D8E /* AutoNumberViewController.swift */; };
+		84FC22A425DE9F9B00B0C112 /* WizardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC22A325DE9F9B00B0C112 /* WizardViewController.swift */; };
+		84FC22A725DEB06300B0C112 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC22A625DEB06300B0C112 /* InfoViewController.swift */; };
+		84FC22AA25DEC00800B0C112 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC22A925DEC00800B0C112 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00BAD4FBE4D09A1822C41784 /* Pods-gibdd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gibdd.debug.xcconfig"; path = "Target Support Files/Pods-gibdd/Pods-gibdd.debug.xcconfig"; sourceTree = "<group>"; };
 		846B159325DD0F6B005B1FBA /* gibdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gibdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B159625DD0F6B005B1FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		846B159825DD0F6B005B1FBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		846B159A25DD0F6B005B1FBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		846B159D25DD0F6B005B1FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846B159F25DD0F6C005B1FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846B15A225DD0F6C005B1FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846B15A425DD0F6C005B1FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C5C1425DE26950000F729 /* DriverCarLicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCarLicenseViewController.swift; sourceTree = "<group>"; };
+		846C5C1725DE71820000F729 /* WizardContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardContainerViewController.swift; sourceTree = "<group>"; };
+		846C5C1C25DE7E0D0000F729 /* first.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpg; sourceTree = "<group>"; };
+		846C5C1D25DE7E0D0000F729 /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+		846C5C1E25DE7E0D0000F729 /* third.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = third.jpg; sourceTree = "<group>"; };
+		846C5C1F25DE7E0D0000F729 /* fourth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fourth.jpg; sourceTree = "<group>"; };
+		84C76A0125DDA43000B51D8E /* AutoNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoNumberViewController.swift; sourceTree = "<group>"; };
+		84FC22A325DE9F9B00B0C112 /* WizardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardViewController.swift; sourceTree = "<group>"; };
+		84FC22A625DEB06300B0C112 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		84FC22A925DEC00800B0C112 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		E4174D9B810484A04AD3D530 /* Pods-gibdd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gibdd.release.xcconfig"; path = "Target Support Files/Pods-gibdd/Pods-gibdd.release.xcconfig"; sourceTree = "<group>"; };
+		FC4F3D40CCC3592C951CCE61 /* Pods_gibdd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gibdd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2C304945B04ABD6ABEFC03 /* Pods_gibdd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDC2576E01CBED951913492 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00BAD4FBE4D09A1822C41784 /* Pods-gibdd.debug.xcconfig */,
+				E4174D9B810484A04AD3D530 /* Pods-gibdd.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C3FC4F02C4E85AF32CB1EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F3D40CCC3592C951CCE61 /* Pods_gibdd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		846B158A25DD0F6B005B1FBA = {
 			isa = PBXGroup;
 			children = (
 				846B159525DD0F6B005B1FBA /* gibdd */,
 				846B159425DD0F6B005B1FBA /* Products */,
+				1CDC2576E01CBED951913492 /* Pods */,
+				4C3FC4F02C4E85AF32CB1EC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,31 @@
 		846B159525DD0F6B005B1FBA /* gibdd */ = {
 			isa = PBXGroup;
 			children = (
+				846C5C1A25DE7D0B0000F729 /* images */,
 				846B159625DD0F6B005B1FBA /* AppDelegate.swift */,
-				846B159825DD0F6B005B1FBA /* SceneDelegate.swift */,
-				846B159A25DD0F6B005B1FBA /* ViewController.swift */,
 				846B159C25DD0F6B005B1FBA /* Main.storyboard */,
 				846B159F25DD0F6C005B1FBA /* Assets.xcassets */,
 				846B15A125DD0F6C005B1FBA /* LaunchScreen.storyboard */,
 				846B15A425DD0F6C005B1FBA /* Info.plist */,
+				84C76A0125DDA43000B51D8E /* AutoNumberViewController.swift */,
+				846C5C1425DE26950000F729 /* DriverCarLicenseViewController.swift */,
+				846C5C1725DE71820000F729 /* WizardContainerViewController.swift */,
+				84FC22A325DE9F9B00B0C112 /* WizardViewController.swift */,
+				84FC22A625DEB06300B0C112 /* InfoViewController.swift */,
+				84FC22A925DEC00800B0C112 /* Storage.swift */,
 			);
 			path = gibdd;
+			sourceTree = "<group>";
+		};
+		846C5C1A25DE7D0B0000F729 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				846C5C1C25DE7E0D0000F729 /* first.jpg */,
+				846C5C1F25DE7E0D0000F729 /* fourth.jpg */,
+				846C5C1D25DE7E0D0000F729 /* second.jpg */,
+				846C5C1E25DE7E0D0000F729 /* third.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846B15A725DD0F6C005B1FBA /* Build configuration list for PBXNativeTarget "gibdd" */;
 			buildPhases = (
+				67CD92CD83EEA607D6D6C4B9 /* [CP] Check Pods Manifest.lock */,
 				846B158F25DD0F6B005B1FBA /* Sources */,
 				846B159025DD0F6B005B1FBA /* Frameworks */,
 				846B159125DD0F6B005B1FBA /* Resources */,
+				6BB9DFAB2E82805DEEE0F2D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +182,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846C5C2325DE7E0D0000F729 /* fourth.jpg in Resources */,
+				846C5C2025DE7E0D0000F729 /* first.jpg in Resources */,
 				846B15A325DD0F6C005B1FBA /* LaunchScreen.storyboard in Resources */,
 				846B15A025DD0F6C005B1FBA /* Assets.xcassets in Resources */,
 				846B159E25DD0F6B005B1FBA /* Main.storyboard in Resources */,
+				846C5C2125DE7E0D0000F729 /* second.jpg in Resources */,
+				846C5C2225DE7E0D0000F729 /* third.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67CD92CD83EEA607D6D6C4B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gibdd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB9DFAB2E82805DEEE0F2D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gibdd/Pods-gibdd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gibdd/Pods-gibdd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gibdd/Pods-gibdd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		846B158F25DD0F6B005B1FBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846B159B25DD0F6B005B1FBA /* ViewController.swift in Sources */,
+				84C76A0225DDA43000B51D8E /* AutoNumberViewController.swift in Sources */,
+				84FC22AA25DEC00800B0C112 /* Storage.swift in Sources */,
+				846C5C1825DE71820000F729 /* WizardContainerViewController.swift in Sources */,
+				84FC22A425DE9F9B00B0C112 /* WizardViewController.swift in Sources */,
+				846C5C1525DE26950000F729 /* DriverCarLicenseViewController.swift in Sources */,
+				84FC22A725DEB06300B0C112 /* InfoViewController.swift in Sources */,
 				846B159725DD0F6B005B1FBA /* AppDelegate.swift in Sources */,
-				846B159925DD0F6B005B1FBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +391,14 @@
 		};
 		846B15A825DD0F6C005B1FBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BAD4FBE4D09A1822C41784 /* Pods-gibdd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K98FJFNJ76;
 				INFOPLIST_FILE = gibdd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +412,14 @@
 		};
 		846B15A925DD0F6C005B1FBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4174D9B810484A04AD3D530 /* Pods-gibdd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K98FJFNJ76;
 				INFOPLIST_FILE = gibdd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
